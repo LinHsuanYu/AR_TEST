@@ -94,7 +94,7 @@ public class GameManager : MonoBehaviour
     public void BtnBackOnClick()
     {
         Debug.Log("BtnBackOnClick");
-        SceneManager.LoadScene("StartScene4",LoadSceneMode.Single);
+        SceneManager.LoadScene("Go_AR_Modify", LoadSceneMode.Single);
     }
 
 }

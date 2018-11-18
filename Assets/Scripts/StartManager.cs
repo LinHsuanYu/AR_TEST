@@ -39,7 +39,7 @@ public class StartManager : MonoBehaviour {
     public void BtnStartOnClick()
     {
         Debug.Log("BtnStartOnClick");
-        SceneManager.LoadScene("GameScene5", LoadSceneMode.Single);
+        SceneManager.LoadScene("AR_Modify", LoadSceneMode.Single);
 
     }
     public void BtnExitOnClick()
