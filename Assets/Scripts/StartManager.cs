@@ -45,5 +45,6 @@ public class StartManager : MonoBehaviour {
     public void BtnExitOnClick()
     {
         Debug.Log("BtnExitOnClick");
+        Application.Quit();
     }
 }
